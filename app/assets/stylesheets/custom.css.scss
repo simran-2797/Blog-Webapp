@@ -1,0 +1,96 @@
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.black{
+    background-color: black;
+}
+#logo {
+float: left;
+font-size: 1.7em;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 1px;
+
+}
+#logo:hover{
+    color: #fff;
+    font-weight: bold;
+}
+
+.center{
+    text-align: center;
+}
+.jumbotron{
+    background-image: asset-url('download.jpeg');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+.jumbotron h1{
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    
+}
+.btn-xlarge{
+ 
+    font-size: 2em;
+}
+.btn-xlarge:hover{
+    background-color:#585858;
+    font-size: 2em;
+}
+.footer{
+    margin-top: 0px;
+    background-color:black;
+    color:white;
+    height: 50px;
+    font-size: 1.2em;
+
+}
+.footer a{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+
+}
+.footer small{
+    float: center;
+}
+.navbar { margin-bottom:0px !important; }
+
+.article-meta-details{
+    border-top: 1px solid #eaeaea;
+    margin-top: 15px;
+}
+
+.article-action{
+    border-top: 1px solid #eaeaea;
+    padding-top:10px;
+}
+.article-title {
+
+    font-weight: bold;
+    
+    font-size: 1.5em;
+    
+    }
+    
+    .article-body {
+    
+    border-top: 1px solid #eaeaea;
+    
+    padding-top: 15px;
+    
+    padding-bottom: 15px;
+
+    }
+    .listing{
+        list-style: none;
+        padding-left: 0px;
+        
+    }
